@@ -11,5 +11,9 @@ class Resident extends Model
 
     protected $fillable = ['name', 'date_of_birth', 'notes','dietary_preferences', 'room_number' ];
 
+//    Setting up the relationship between the Resident and the meal model
+    public function meals() {
+        return $this->belongsToMany(Meal::class);
+    }
 
 }

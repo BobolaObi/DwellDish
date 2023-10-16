@@ -14,4 +14,9 @@ class Meal extends Model
         'ingredients',
         'dietary_info'
     ];
+
+    //Relationship to Residents model
+    public function residents() {
+        return $this->belongsToMany(Resident::class);
+    }
 }

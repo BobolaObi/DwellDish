@@ -1,4 +1,4 @@
-# DualDish: Resident Directory System & Meal Planner
+# Komuneaty: Resident Directory System & Meal Planner
 
 An open-source solution for residential houses to manage residents and their meals, built with Laravel and Vue.js.
 
@@ -16,8 +16,8 @@ An open-source solution for residential houses to manage residents and their mea
 
 ## 📦 Installation:
 
-1. Clone the repo: `git clone https://github.com/your-username/DualDish.git`
-2. Move to the project directory: `cd DualDish`
+1. Clone the repo: `git clone https://github.com/your-username/Komuneaty.git`
+2. Move to the project directory: `cd Komuneaty`
 3. Install dependencies: `composer install && npm install`
 4. Set up your `.env` file and run migrations.
 5. Serve it up: `php artisan serve`
